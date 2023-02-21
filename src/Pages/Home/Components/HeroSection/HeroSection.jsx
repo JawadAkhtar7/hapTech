@@ -17,7 +17,7 @@ const HeroSection = () => {
                         SERVICES
                     </div>
                     <div className="para">
-                        We are committed to delivering high quality products and services that exceed your expectations. We use state of the art technology and resources and our people are committed to providing an exceptional experience.
+                        We are committed to delivering high quality iOS and  Android Applications that exceed your expectations. We use state of the art technology and resources and our people are committed to providing an exceptional experience.
                     </div>
                     {/* <div className="btnBox">
                         <button className='btn'>Show Details</button>

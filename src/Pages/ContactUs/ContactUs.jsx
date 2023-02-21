@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 import { TextField, Button } from "@mui/material";
 
+import emailjs from "@emailjs/browser"
 
 import MobileCont from "./ContactUsMobbile";
 
@@ -37,13 +38,23 @@ const Contact = () => {
             };
         });
     };
-    const onSubmit = (event) => {
+    const onSubmit = async (event) => {
         event.preventDefault();
-        console.log("YOu First name is =", Fullname.FName,
-            "Your Last name is =", Fullname.LName,
-            "Your Email is =", Fullname.Email,
-            "Your msg is =", Fullname.mesg)
-        alert("Your Query has been submitted sucessfully")
+        let data = {
+            email: Fullname.Email,
+            firstName: Fullname.FName,
+            lastName: Fullname.LName,
+            message: Fullname.Mesg
+        }
+
+        try {
+            const res = await emailjs.send("service_2os0sqc", "template_2woot4l", data, "-wopyn9wwm-lP2vIb")
+            console.log(res);
+            alert("Message Sent Success")
+            window.location.href = "/"
+        } catch (err) {
+            console.log(" ERROR------------>", err)
+        }
     };
 
     return (

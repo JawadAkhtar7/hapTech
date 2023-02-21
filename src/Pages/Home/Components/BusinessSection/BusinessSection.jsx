@@ -17,7 +17,7 @@ const BusinessSection = () => {
         <>
             <div className="businessSectionContainer">
                 <div className="heading">
-                    We help companies turn their ideas into reality. In essence, we help companies build something people want.
+                    Helping companies turn Ideas into Reality
                 </div>
                 <div className="line" />
                 <div className="cardsBox">
