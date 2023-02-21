@@ -17,11 +17,11 @@ const HeroSection = () => {
                         SERVICES
                     </div>
                     <div className="para">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, autem. Ipsa facere quae inventore voluptatibus omnis, eaque reiciendis consectetur modi deserunt repudiandae, beatae delectus eum? Accusantium illo consequatur quam eos.
+                        We are committed to delivering high quality products and services that exceed your expectations. We use state of the art technology and resources and our people are committed to providing an exceptional experience.
                     </div>
-                    <div className="btnBox">
+                    {/* <div className="btnBox">
                         <button className='btn'>Show Details</button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="imgBox">
                     <img src={BackImg} alt="" />

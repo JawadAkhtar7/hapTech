@@ -21,7 +21,7 @@ const Home = () => {
       <div className="homePageContainer">
         <HeroSection />
         <BusinessSection />
-        <ArticalsSection />
+        {/* <ArticalsSection /> */}
       </div>
     </>
   )
