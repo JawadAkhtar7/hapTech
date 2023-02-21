@@ -34,7 +34,7 @@ const MobileCont = () => {
       email: Fullname.Email,
       firstName: Fullname.FName,
       lastName: Fullname.LName,
-      message: Fullname.Mesg
+      msg: Fullname.Mesg
     }
 
     try {
@@ -91,11 +91,11 @@ const MobileCont = () => {
 
             <div className="textfield">
               <TextField
-                name="mesg"
+                name="Mesg"
                 id="outlined-multiline-static"
                 label="Entre Your Text Here"
                 onChange={InputEvent}
-                value={Fullname.mesg}
+                value={Fullname.Mesg}
                 multiline
                 rows={10}
                 style={{ width: "100%", marginTop: "2%" }}
