@@ -37,7 +37,7 @@ const Header = () => {
                     {/* <AiOutlineMenu /> */}
                     {
                         location && location.pathname != "/contact" &&
-                        <button className='btn' onClick={() => Navigate("/contact")}>Contact us</button>
+                        <button className='btn' onClick={() => Navigate("/contact")}>Contact Us</button>
                     }
                 </div>
             </div>
