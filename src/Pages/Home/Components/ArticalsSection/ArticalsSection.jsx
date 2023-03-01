@@ -24,7 +24,7 @@ import "./ArticalsSection.scss";
 
 
 
-let ImgsArray = [C1 , C2 , C3 , C4 , C5 , C6]
+let ImgsArray = [C2 , C3 , C4 , C5 , C6]
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (

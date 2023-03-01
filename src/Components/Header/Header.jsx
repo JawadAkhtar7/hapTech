@@ -31,7 +31,7 @@ const Header = () => {
             <div className="headerContainer" style={changeNavbar ? { backgroundColor: "white", boxShadow: "0px 0px 17px 1px rgba(128, 128, 128, 0.2)" } : {}}>
                 <div className="logoBox" onClick={() => Navigate("/")}>
                     <img src={Logo} alt="" />
-                    <p> <span> WEB </span> Counseling </p>
+                    <p> <span> HAP</span>Tech  </p>
                 </div>
                 <div className="btnBox">
                     {/* <AiOutlineMenu /> */}
