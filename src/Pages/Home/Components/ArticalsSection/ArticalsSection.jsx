@@ -1,16 +1,16 @@
 import React from 'react'
 
 // Assets | ICONS :
-import IMG1 from "../../../../Assets/img1.jpg";
-import IMG2 from "../../../../Assets/img2.jpg";
-import IMG3 from "../../../../Assets/img3.jpg";
-import IMG4 from "../../../../Assets/img4.jpg";
+// import IMG1 from "../../../../Assets/img1.jpg";
+// import IMG2 from "../../../../Assets/img2.jpg";
+// import IMG3 from "../../../../Assets/img3.jpg";
+// import IMG4 from "../../../../Assets/img4.jpg";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
-import C1 from "../../../../Assets/c1.jpg";
+// import C1 from "../../../../Assets/c1.jpg";
 import C2 from "../../../../Assets/c2.jpg";
 import C3 from "../../../../Assets/c3.jpg";
 import C4 from "../../../../Assets/c4.jpg";
-import C5 from "../../../../Assets/c5.jpg";
+// import C5 from "../../../../Assets/c5.jpg";
 import C6 from "../../../../Assets/c6.jpg";
 
 
@@ -24,7 +24,7 @@ import "./ArticalsSection.scss";
 
 
 
-let ImgsArray = [C2 , C3 , C4 , C5 , C6]
+let ImgsArray = [C2 , C3 , C4 , C6]
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
