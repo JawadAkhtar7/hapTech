@@ -12,6 +12,10 @@ import C3 from "../../../../Assets/c3.jpg";
 import C4 from "../../../../Assets/c4.jpg";
 // import C5 from "../../../../Assets/c5.jpg";
 import C6 from "../../../../Assets/c6.jpg";
+import C7 from "../../../../Assets/c7.jpg";
+import C8 from "../../../../Assets/c8.jpg";
+import C9 from "../../../../Assets/c9.jpg";
+import C10 from "../../../../Assets/c10.jpg";
 
 
 // Helper:
@@ -24,7 +28,7 @@ import "./ArticalsSection.scss";
 
 
 
-let ImgsArray = [C2 , C3 , C4 , C6]
+let ImgsArray = [C2, C3, C4, C6, C7, C8, C9, C10]
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (

@@ -22,12 +22,12 @@ const App = () => {
 
   return (
     <div className='appContainer'>
-      {
+      {/* {
         location.pathname !== "/contact" &&
         <div className="heroBack">
           <img src={HeroBackImg} alt="ERROR" />
         </div>
-      }
+      } */}
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />

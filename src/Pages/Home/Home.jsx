@@ -1,7 +1,6 @@
 import React from 'react'
 
 // Assets :
-import BackImg from "../../Assets/back.jpg"
 import ArticalsSection from './Components/ArticalsSection/ArticalsSection';
 import BusinessSection from './Components/BusinessSection/BusinessSection';
 
